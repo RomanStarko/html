@@ -11,6 +11,7 @@
 
 <body>
     <header class="header">
+        <!-- #region Header nav-->
         <nav class="header__nav">
             <div class="header__logo">
                 <img src="img/logo-icon.svg" alt=" logotype-icon" width="100">
@@ -21,7 +22,11 @@
             <a href="#cars-of-the-month" class="header__menu-item">Cars of the month</a>
             <a href="#pricing" class="header__menu-item">Pricing</a>
             <a href="#testimonials" class="header__menu-item">Testimonials</a>
-            <a href="#contact us" class="header__menu-item">Contact us</a>
+            <a href="#contact-us" class="header__menu-item">Contact us</a>
+            <a href="https://uk-ua.facebook.com/"><img src="img/facebook-logo.png" alt="facebook" width="30"></a>
+            <a href="https://www.instagram.com/"><img src="img/instagram-logo.png" alt="instagram" width="30"></a>
+            <a href="https://www.youtube.com/"><img src="img/youtube-logo.png" alt="youtube" width="42"></a>
+            <!-- #endregion -->
         </div>
         <div class="header__banner">
 
@@ -37,7 +42,7 @@
         <section class="section__learn-more">
             <div>
                 <div class="suvs">
-    
+
                     <h3>SUVs</h3>
                     <p>No obstacles on your way
                         can spoil the trip.
@@ -46,7 +51,7 @@
                     <a href="#about" class="learn-more-button button">LEARN MORE</a>
                 </div>
                 <div class="sport-cars">
-               
+
                     <h3>Sports Cars</h3>
                     <p>Feel what true speed
                         and freedom are.</p>
@@ -62,14 +67,101 @@
                 </div>
             </div>
         </section>
-        <section class="section__about-us">
+        <section class="section__about-us" id="about">
+            <div class="about-us">
+                <p class="about-us__uppertitle">— MEET FASTCAR</p>
+                <h2 class="about-us__title"> About Us</h2>
+                <p class="about-us__subtitle"> We do everything for you to drive with maximum comfort!
 
+                    Our company has been operating on the US car rental market for over 10 years. You can rent a car for
+                    any
+                    purpose, from a business trip to conquering roads with difficult surfaces.
+
+                    We have several pick-up locations in New York so that you can take and leave the rented car in any
+                    convenient place. FASTCAR offers the most favorable conditions for car rental.
+
+
+                </p>
+            </div>
+            <div class="contact-us-button">
+                <a href="#request" class="contact-us-link button">CONTACT US</a>
+            </div>
+        </section>
+        <section class="feedback">
+            <p class="feedback__upper-title">— FEEDBACK</p>
+
+            <h2 id="testimonials" class="feedback__title">Testimonials</h2>
+
+            <p class="feedback__subtitle">Every day, dozens of people go to work or travel by cars rented with FASTCAR.
+            </p>
+            <div class="feedback__carousel">
+                <div class="feedback__carousel-slide slide">
+                    <img width="300" class="slide__image" src="img/feedback-carousel-slide-1.png"
+                        alt="A girl near a car">
+                    <h3 class="slide__title">
+                        Jane McCallan
+                    </h3>
+                    <p class="slide__position">Marketing director in Pepss.co</p>
+                    <p class="slide__deascription">I`m complitely satisfied with services of this company.I often rent
+                        cars with FASTCAR for buiseness meeting,driving for a work ,etc. I am pleased wutg excellent
+                        technical condtion of the cars.favorable rental conditions.And the staff are aleays friendly.
+                    </p>
+                    <p class="slide__subtitle">December,15 2019</p>
+                </div>
+                <div class="feedback__carousel-slide slide">
+                    <img width="300" class="slide__image" src="img/feedback-carousel-slide-1.png"
+                        alt="A girl near a car">
+                    <h3 class="slide__title">
+                        Jane McCallan
+                    </h3>
+                    <p class="slide__position">Marketing director in Pepss.co</p>
+                    <p class="slide__deascription">I`m complitely satisfied with services of this company.I often rent
+                        cars with FASTCAR for buiseness meeting,driving for a work ,etc. I am pleased wutg excellent
+                        technical condtion of the cars.favorable rental conditions.And the staff are aleays friendly.
+                    </p>
+                    <p class="slide__subtitle">December,15 2019</p>
+                </div>
+                <div class="feedback__carousel-slide slide">
+                    <img width="300" class="slide__image" src="img/feedback-carousel-slide-1.png"
+                        alt="A girl near a car">
+                    <h3 class="slide__title">
+                        Jane McCallan
+                    </h3>
+                    <p class="slide__position">Marketing director in Pepss.co</p>
+                    <p class="slide__deascription">I`m complitely satisfied with services of this company.I often rent
+                        cars with FASTCAR for buiseness meeting,driving for a work ,etc. I am pleased wutg excellent
+                        technical condtion of the cars.favorable rental conditions.And the staff are aleays friendly.
+                    </p>
+                    <p class="slide__subtitle">December,15 2019</p>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer id="contacts">
+    <section class="section__form">
+        <form action="https://formspree.io/f/mvonyozb" method="post">
+            <input type="text" placeholder="Enter your full name*" required name="full-name">
+            <input type="tel" placeholder="Enter your phone number*" required name="phone-number">
+            <input type="email" placeholder="Enter your email*" required name="email">
+            <input type="text" placeholder="Type your message*" required name="message">
+            <input type="search" value="Request a quote">
+        </form>
 
-    </footer>
+    </section>
+
+    <section class="footer">
+        <nav class="header__nav">
+            <div class="header__logo">
+                <img src="img/logo-icon.svg" alt=" logotype-icon" width="100">
+            </div>
+        </nav>
+        <div class="header__menu">
+            <a href="#about" class="header__menu-item">About us</a>
+            <a href="#cars-of-the-month" class="header__menu-item">Cars of the month</a>
+            <a href="#pricing" class="header__menu-item">Pricing</a>
+            <a href="#testimonials" class="header__menu-item">Testimonials</a>
+            <a href="#contact-us" class="header__menu-item">Contact us</a>
+    </section>
 </body>
 
 </html>
